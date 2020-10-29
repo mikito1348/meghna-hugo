@@ -1,10 +1,10 @@
-baseURL = "https://examplesite.com"
+baseURL = "https://master--heuristic-meitner-7a763d.netlify.app/https://master--heuristic-meitner-7a763d.netlify.app/"
 disableLanguages = []
 disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
-title = "Meghna"
+title = "Matteo"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
@@ -20,46 +20,51 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
-name = "themefisher"
-pre = ""
-url = "https://themefisher.com/"
-weight = 7
-[[menu.main]]
-name = "contact"
+name = "about"
 pre = "#"
-url = "contact"
-weight = 6
-[[menu.main]]
-name = "blog"
-pre = "#"
-url = "blog"
-weight = 5
-[[menu.main]]
-name = "pricing"
-pre = "#"
-url = "pricing"
-weight = 4
-[[menu.main]]
-name = "portfolio"
-pre = "#"
-url = "portfolio"
-weight = 3
+url = "about"
+weight = 1
 [[menu.main]]
 name = "services"
 pre = "#"
 url = "services"
 weight = 2
 [[menu.main]]
-name = "about"
+name = "portfolio"
 pre = "#"
-url = "about"
-weight = 1
+url = "portfolio"
+weight = 3
+[[menu.main]]
+name = "team"
+pre = "#"
+url = "team"
+weight = 4
+[[menu.main]]
+name = "pricing"
+pre = "#"
+url = "pricing"
+weight = 5
+[[menu.main]]
+name = "blog"
+pre = "#"
+url = "blog"
+weight = 6
+[[menu.main]]
+name = "contact"
+pre = "#"
+url = "contact"
+weight = 7
+[[menu.main]]
+name = "themefisher"
+pre = ""
+url = "https://themefisher.com/"
+weight = 8
 [params]
-author = "Themefisher"
+author = "Matteo"
 description = "Responsive Multipurpose Parallax Hugo Template"
 google_analytics_id = ""
 logo = "images/logo.png"
-post_share = true
+post_share = false
 [params.cookies]
 enable = false
 expire_days = 2
@@ -94,7 +99,7 @@ link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
 [params.preloader]
-enable = false
+enable = true
 preloader = "images/logo.png"
 [[params.social]]
 icon = "ti-facebook"
