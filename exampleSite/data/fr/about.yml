@@ -3,7 +3,7 @@ about:
   enable: true
   title: Présentation
   about_item:
-  - icon: ti-ruler-pencil
+  - icon: ti-heart
     title: Ma philosophie
     content: Etant donné que la lumière est plus rapide que le son, beaucoup paraisse
       brillant avant de se rendre compte qu'il sont bete
