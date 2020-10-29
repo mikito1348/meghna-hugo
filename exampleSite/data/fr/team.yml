@@ -1,6 +1,6 @@
 ---
 team:
-  enable: true
+  enable: false
   title: Test team
   team_member:
   - name: Michael Jonson
